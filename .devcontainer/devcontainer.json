@@ -1,6 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "ghcr.io/jarrodcolburn/features/flutter-sdk:0": {},
+  "image": "ghcr.io/jarrodcolburn/features/flutter-sdk:0",
   "features": {
   }
 }
