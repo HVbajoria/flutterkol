@@ -2,6 +2,11 @@ on: push
 jobs: 
   build-and-test: 
     runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./githubxflutter
+
     steps:
     - uses: actions/checkout@v1 
     # The flutter action needs java so include it
